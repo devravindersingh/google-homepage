@@ -1,0 +1,41 @@
+#outermost {
+    background-color: black;
+}
+#navbar {
+    display: flex;
+    justify-content: flex-end;    
+    background-color: white;
+    padding: 14px 0 0 0;
+}
+
+.navbar_links { 
+    padding: 0 20px 6px 0;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    color: black;
+    
+}
+
+#div_Center {
+    background-color: white; 
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    padding: 150px 0 10px 0;
+}
+
+#search_Area #search_Box{
+    background-color:w= white;
+    display: flex;
+    justify-content: center;
+    height: 44px;
+    
+}
+/* #search_Box {
+    
+    width: 554px;
+    height: 44px;
+} */
