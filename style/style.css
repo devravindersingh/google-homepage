@@ -1,6 +1,7 @@
-#outermost {
-    background-color: black;
+body {
+    margin: 0;
 }
+
 #navbar {
     display: flex;
     justify-content: flex-end;    
@@ -16,10 +17,10 @@
     color: black;
     
 }
-
+/* 
 #div_Center {
-    background-color: white; 
-}
+    background-color:blueviolet;     
+} */
 
 #logo {
     display: flex;
@@ -27,15 +28,100 @@
     padding: 150px 0 10px 0;
 }
 
-#search_Area #search_Box{
-    background-color:w= white;
+
+#search_Box{
+    /* background-color: black; */
     display: flex;
     justify-content: center;
     height: 44px;
+    margin-bottom: 20px;
     
 }
-/* #search_Box {
-    
+
+#search_Box input {
     width: 554px;
-    height: 44px;
-} */
+    height: 39px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border: 0;
+    border-radius: 25px;
+    border: 2px solid deepskyblue;
+}
+
+#search_Buttons{
+    /* background-color: black;  */
+    display: flex;
+    justify-content: center;
+    height: 50px;    
+}
+
+#search_Buttons button {
+    width: 129px;
+    height: 36px;
+    font-family: Arial, Helvetica,sans-serif;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    padding: 4px 4px 4px 4px;
+    border: 1px solid #f2f2f2;
+    margin: 6px 6px 6px 6px;
+    border-radius: 4px;
+}
+
+#offered_in {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 30px; 
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#offered_in a {
+    padding: 0 5px 0 5px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#footer_Bar {
+    background-color: #f2f2f2;
+    margin-top: 90px;
+    height: 90px;
+}
+
+#region {
+    display: flex;
+    align-items: center;
+    border: .8px solid rgba(44, 44, 44, 0.247);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#5F6368;
+    height: 45px; 
+    padding-left: 30px;
+ }
+
+#bottom_part {
+    display: flex;
+    align-items: center;
+    border-bottom: .8px solid rgba(44, 44, 44, 0.247);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#5F6368;
+    height: 45px;
+}
+
+#left_part {
+    padding-left: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#right_part {
+    margin-left: 850px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.ach {
+    padding: 0 4px 0 4px; 
+}
